@@ -1,0 +1,6 @@
+# Conteúdo do arquivo /home/ec2-user/pointer-app/pointer-playbook.yml
+---
+- hosts: localhost
+  become: true
+  roles:
+    - pointer-app
